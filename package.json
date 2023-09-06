@@ -1,0 +1,26 @@
+{
+  "name": "sou",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "node ./startDevConf.js && vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "params": "node ./paramsConf.js helloWord"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "element-plus": "2.0.4",
+    "inquirer": "^8.2.5",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.3",
+    "vite": "^4.4.5"
+  }
+}
